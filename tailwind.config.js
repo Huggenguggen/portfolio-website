@@ -1,8 +1,15 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{html,js}',
-    './components/**/*.{html,js}'
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
+  variants: {
+    extend: {
+      ringWidth: ['hover', 'active'],
+    }
+  },
   theme: {
     extend: {},
   },
