@@ -14,6 +14,7 @@ function Navbar() {
   const navigation = [
     { label: 'Home', path: '/'},
     { label: 'Posts', path: '/posts'},
+    { label: 'Contact', path: '/contact'}
   ];
 
   const renderThemeChanger = () => {
@@ -45,11 +46,12 @@ function Navbar() {
   }
 
   return (
-    <header className="h-16 flex items-center justify-between">
+    <header className="h-16 flex items-center justify-between pt-20">
+      <img src="/logo_transparent.png" className="object-fill h-25 w-20" />
       <ul className="flex gap-4">
         {navigation.map(nav => (
           <Link href={nav.path}>
-            <a className="font-semibold text-gray-400 hover:text-gray-500">{nav.label}</a>
+            <a className="font-semibold text-gray-400 hover:text-gray-500 text-2xl">{nav.label}</a>
           </Link>
         ))}
       </ul>
