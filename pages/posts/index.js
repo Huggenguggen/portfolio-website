@@ -8,7 +8,7 @@ function PostsPage() {
   const shopee_content = "Participated in Shopee Code League 2022, a competitive coding event hosted by Shopee."
 
   const Posts = [
-    { label: "EZMod", content: ez_mod_content, image: "static/img/EZMod-site.png", link: "https://ez-mod.vercel.app/"},
+    { label: "EZMod", content: ez_mod_content, image: "static/img/EZMod-site-2.png", link: "https://ez-mod.vercel.app/"},
     { label: "SEETF 2022", content: seetf_content , image: "post_assets/SEETF.png", link: "https://github.com/sl33pingmathrapt0r/SEETF-2022"},
     { label: "Shopee Code League 2022", content: shopee_content, image: "post_assets/shopeecodeleague.jpg", link: "https://careers.shopee.sg/codeleague/"},
   ];
