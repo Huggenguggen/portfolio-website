@@ -8,7 +8,8 @@ function Tile({title, content, image , link, className }) {
       <p className="font-semibold text-gray-400 text-lg">{content}</p>
       <a className="font-light underline text-2xl text-gray-400 hover:text-gray-500" 
           href={link} 
-          target="_blank">Link</a>
+          target="_blank" 
+          rel="noopener noreferrer">Link</a>
     </div>
   )
 }

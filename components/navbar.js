@@ -47,7 +47,9 @@ function Navbar() {
 
   return (
     <header className="h-16 flex items-center justify-between pt-20">
+      <a href="/">
       <img src="/logo_transparent.png" className="object-fill h-25 w-20" />
+      </a>
       <ul className="flex gap-4">
         {navigation.map(nav => (
           <Link href={nav.path}>

@@ -20,17 +20,17 @@ function HomePage() {
       <div className="text-gray-600 mb-8 text-xl">
         I've just started my journey in Computer Science but I'm always eager to learn more. I made this website mostly to prove to myself that I have learnt something over the summer.
     This website was made using 
-      <a href="https://nextjs.org/" target="_blank">
+      <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
         <span className="text-orange-500 hover:text-orange-700 pl-1">Next.JS</span>
       </a> and 
-      <a href="https://tailwindcss.com/" target="_blank">
+      <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">
         <span className="text-orange-500 hover:text-orange-700 pl-1">Tailwind CSS</span>
       </a>
       </div>
       <div className="text-gray-600 mb-8 text-xl">If you want to take a look at how it was made,  
         <a href="https://github.com/Huggenguggen/portfolio-website"
           className="underline text-gray-600 mb-8 text-xl hover:text-gray-700 pl-1"
-          target="_blank">here's the link</a></div>
+          target="_blank" rel="noopener noreferrer">here's the link</a></div>
 
       <div className="text-gray-600 mb-8 text-xl">
         Currently I'm getting my feet wet in web development as well as Information Security. 
