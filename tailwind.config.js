@@ -11,7 +11,11 @@ module.exports = {
     }
   },
   theme: {
-    extend: {},
+    extend: {
+      ringWidth: {
+        '10': '10px',
+      }
+    },
   },
   plugins: [],
 }
