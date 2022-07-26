@@ -15,10 +15,10 @@ function PostsPage() {
   
   return (
     <section className="mt-16">
-      <h1 className="text-7xl font-bold"><span className="dark:text-orange-700">Things I've done</span></h1>
-      <h3 className="text-4xl my-3 pb-10">It ain't much but it's honest work</h3>
+      <h1 className="md:text-7xl text-5xl font-bold"><span className="dark:text-orange-700">Things I've done</span></h1>
+      <h3 className="md:text-4xl text-2xl my-3 pb-10">It ain't much but it's honest work</h3>
       <header>
-      <div className="grid grid-cols-2 gap-x-20 gap-y-40">
+      <div className="grid grid-cols-1 gap-x-20 gap-y-40">
         {Posts.map((post) => (
           <div key={post.label}><Tile 
             title={post.label} 

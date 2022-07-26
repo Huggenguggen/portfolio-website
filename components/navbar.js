@@ -52,7 +52,7 @@ function Navbar() {
         <img src='static/img/logo_transparent (1).png' className="object-fill h-25 w-20" alt="Personal logo" />
         </a>
       </Link>
-      <ul className="flex gap-4">
+      <ul className="flex gap-2 md:gap-4">
         {navigation.map(nav => (
           <div key={nav.label}>
           <Link href={nav.path}>
