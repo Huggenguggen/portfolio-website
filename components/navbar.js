@@ -24,7 +24,7 @@ function Navbar() {
 
     if(currentTheme === 'dark') {
       return (
-        <Button className="bg-gray-200 dark:bg-gray-600"
+        <Button className="bg-gray-200 dark:bg-gray-600 transition duration-500 ease-out"
           onClick={() => setTheme('light')}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -34,7 +34,7 @@ function Navbar() {
       )
     } else {
       return (
-        <Button className="bg-gray-200"
+        <Button className="bg-gray-200 transition duration-500 ease-out"
           onClick={() => setTheme('dark')}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
