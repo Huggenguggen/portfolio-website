@@ -18,9 +18,9 @@ function PostsPage() {
       <h1 className="text-7xl font-bold"><span className="dark:text-orange-700">Things I've done</span></h1>
       <h3 className="text-4xl my-3 pb-10">It ain't much but it's honest work</h3>
       <header>
-      <div class="grid grid-cols-2 gap-x-20 gap-y-40">
+      <div className="grid grid-cols-2 gap-x-20 gap-y-40">
         {Posts.map((post) => (
-          <div><Tile 
+          <div key={post.label}><Tile 
             title={post.label} 
             content={post.content} 
             image={post.image} 

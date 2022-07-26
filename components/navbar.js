@@ -47,14 +47,18 @@ function Navbar() {
 
   return (
     <header className="h-16 flex items-center justify-between pt-20">
-      <a href="/">
-      <img src="/logo_transparent.png" className="object-fill h-25 w-20" />
-      </a>
+      <Link href="/">
+        <a>
+        <img src="/logo_transparent.png" className="object-fill h-25 w-20" alt="Personal logo" />
+        </a>
+      </Link>
       <ul className="flex gap-4">
         {navigation.map(nav => (
+          <div key={nav.label}>
           <Link href={nav.path}>
             <a className="font-semibold text-gray-400 hover:text-gray-500 text-2xl">{nav.label}</a>
           </Link>
+          </div>
         ))}
       </ul>
       {renderThemeChanger()}

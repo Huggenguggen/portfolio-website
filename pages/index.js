@@ -50,13 +50,15 @@ function HomePage() {
       </div>
       <div className="flex items-center justify-evenly">
       <Button 
-      children={"Contact Me!"} 
       className={"bg-orange-400 dark:bg-orange-700 text-white px-6"}
-      onClick={redirectContact}/>
-      <Button 
-      children={"Things I've done"} 
+      onClick={redirectContact}>
+        Contact Me!
+      </Button>
+      <Button  
       className={"bg-orange-400 dark:bg-orange-700 text-white px-6"}
-      onClick={redirectPosts}/>
+      onClick={redirectPosts}>
+        Things I've done
+      </Button>
       </div>
     </section>
   )
