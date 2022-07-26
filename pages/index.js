@@ -42,9 +42,9 @@ function HomePage() {
         <span className="text-orange-500 pl-1">travel</span>
       </div>
       <div className="grid grid-cols-7 pb-10">
-        <img src="landing_page_assets/UK_pic_2.jpeg" className="col-span-2 object-fill h-60 rounded-md ring-2 ring-blue-900"/>
-        <img src="landing_page_assets/UK_pic.jpeg" className="col-span-2 object-fill h-60 rounded-md ring-2 ring-blue-900"/>
-        <img src="landing_page_assets/DSC00762.JPG" className="col-span-3 object-contain h-60 rounded-md ring-2 ring-blue-900 mx-auto"/>
+        <img src="landing_page_assets/UK_pic_2.jpeg" className="col-span-2 object-fill h-60 rounded-md ring-2 ring-blue-900" alt="Me in the UK"/>
+        <img src="landing_page_assets/UK_pic.jpeg" className="col-span-2 object-fill h-60 rounded-md ring-2 ring-blue-900" alt="Still me in the UK"/>
+        <img src="landing_page_assets/DSC00762.JPG" className="col-span-3 object-contain h-60 rounded-md ring-2 ring-blue-900 mx-auto" alt="Nice Landscape photo"/>
       </div>
       <div className="pb-10">
       </div>
