@@ -49,7 +49,7 @@ function Navbar() {
     <header className="h-16 flex items-center justify-between pt-20">
       <Link href="/">
         <a>
-        <img src="public/logo_transparent.PNG" className="object-fill h-25 w-20" alt="Personal logo" />
+        <img src="static/logo_transparent.PNG" className="object-fill h-25 w-20" alt="Personal logo" />
         </a>
       </Link>
       <ul className="flex gap-4">
